@@ -30,7 +30,7 @@ body , html
 }
 
 .navbar{
-  position: absolute;
+  position:fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -38,6 +38,7 @@ body , html
   justify-content:space-between;
   padding: 20px;
   color: whitesmoke;
+  background: #2fbfb0fa;
 }
 
 .nav-links
@@ -127,7 +128,7 @@ color: #49497e;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45%;
+  width: 40%;
 
 }
 
@@ -233,7 +234,7 @@ color: #ece5eae6;
   min-height: 100px;
   padding: 20px 80px;
   margin: 0;
-  background: #484872;
+  background: #2fbfb0fa;
   text-align: center;
 }
 .footer p{
@@ -315,8 +316,8 @@ img:hover{
   transform: scale(1.1);
 }
 .ctn:hover{
-  background: whitesmoke;
-  color: #fc036b;
+  background: #4d5c5a;
+  color: whitesmoke;
   box-shadow: 2px 2px 5px #00000056;
 }
 a:hover{
@@ -324,3 +325,21 @@ a:hover{
   cursor: pointer;
 
 }
+#myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 15%;
+        left: 85%;
+        max-width: 30px;
+        width: 100%;
+        font-size: 18px;
+        background-color: #fc036b;
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7c7c7c;
+    }
